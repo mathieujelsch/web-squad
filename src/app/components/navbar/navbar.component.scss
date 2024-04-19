@@ -1,0 +1,33 @@
+
+
+.container-fluid {
+  border-bottom: 1px solid #D5D8EA;
+  border-top: 1px solid #D5D8EA;
+}
+
+.custom-logo .custom-text {
+  font-size: 16px;
+}
+
+.custom-logo img {
+  margin-right: 11px;
+}
+
+.custom-logo {
+  border-right: 1px solid #D5D8EA;
+  padding-right: 25px;
+  border-top-width: 5px; /* Ajuster la valeur pour modifier la hauteur de la bordure supérieure */
+  border-bottom-width: 5px;
+}
+
+.app-blue-button, .app-white-button {
+  display: inline-block;
+  margin-left: 16px; /* Adjust margin as needed */
+  font-size: 12px;
+}
+
+.navbar-nav .nav-link,
+  .navbar-brand .custom-text,
+  .dropdown-item {
+    font-size: 13px;
+  }
