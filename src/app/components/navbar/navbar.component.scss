@@ -2,7 +2,7 @@
 .navbar {
   border-bottom: 1px solid #D5D8EA;
   border-top: 1px solid #D5D8EA;
-  margin-top: 5px;
+  margin-top: 1vh;
   background-color: white;
 }
 
@@ -77,3 +77,41 @@
   .dropdown-item, .app-blue-button, .app-white-button {
     font-size: 15px;
   }
+
+.nav-link-gap {
+  margin-left: 20px; // pour rendre responsive la réduction de la nav bar avec Notre équipe
+}
+
+.icons {
+  display: none;
+}
+
+
+@media (max-width: 768px) { /* Changer la valeur en fonction de vos besoins */
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-item {
+    display: none; /* Cacher tous les éléments de navigation par défaut */
+  }
+
+  .nav-item:last-child {
+    display: flex; /* Afficher uniquement le dernier élément, qui contient les icônes mat-icon */
+  }
+  
+  .icons {
+    display: flex;
+    font-size: 25px;
+  }
+
+  .icons a {
+    text-decoration: none;
+    color: #33B2E9;
+  }
+
+  .login-icon {
+    margin-right: 15px;
+  }
+}

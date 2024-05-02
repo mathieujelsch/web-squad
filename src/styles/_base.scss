@@ -1,0 +1,129 @@
+// .flex{
+//     display: flex;
+//     justify-content: flex-start;
+//     align-items: stretch;
+//     flex-direction: row;
+// }
+
+.flex {
+    /* stylelint-disable-next-line declaration-no-important */
+    display: flex !important;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: stretch;
+  }
+  
+  .column {
+    flex-direction: column;
+  }
+  
+  .grid {
+    display: grid;
+  }
+  
+  .wrap {
+    flex-wrap: wrap;
+  }
+  
+  .space-between {
+    justify-content: space-between;
+  }
+  
+  .space-around {
+    justify-content: space-around;
+  }
+  
+  .flex-end {
+    justify-content: flex-end;
+  }
+  
+  .flex-start {
+    justify-content: flex-start;
+  }
+  
+  .center {
+    align-items: center;
+    align-content: center;
+  }
+  
+  .start {
+    align-items: flex-start;
+    align-content: flex-start;
+  }
+  
+  .end {
+    align-items: flex-end;
+    align-content: flex-end;
+  }
+  
+  .self-start {
+    align-self: start;
+  }
+  
+  .self-end {
+    align-self: end;
+  }
+  
+  .middle {
+    vertical-align: middle;
+  }
+  
+  .justify {
+    justify-content: center;
+  }
+  
+  .text-align {
+    text-align: center;
+  }
+  
+  @for $i from 1 through 30 {
+    .gap-#{4 * $i} {
+      gap: #{4 * $i}px;
+    }
+  
+    .column-gap-#{4 * $i} {
+      column-gap: #{4 * $i}px;
+    }
+  
+    .row-gap-#{4 * $i} {
+      row-gap: #{4 * $i}px;
+    }
+  }
+  
+  .grow {
+    flex: 1;
+  }
+  
+  .fill {
+    height: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    width: 100%;
+  }
+  
+  table > caption {
+    display: none;
+  }
+  
+  .ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .flex-shrink {
+    flex-shrink: 0;
+  }
+  
+  @for $i from 1 through 30 {
+    .p-#{4 * $i} {
+      padding: #{4 * $i}px;
+    }
+  }
+  
+  @for $i from 1 through 30 {
+    .m-#{4 * $i} {
+      margin: #{4 * $i}px;
+    }
+  }

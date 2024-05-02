@@ -8,7 +8,7 @@
 
     <ul class="navbar-nav ml-auto">
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="dropdownMenu1" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle nav-link-gap" href="#" id="dropdownMenu1" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Notre équipe
         </a>
         <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
@@ -29,15 +29,29 @@
           <a class="dropdown-item" href="#">Autre doc2</a>
         </div>
       </li>
+      <li class="nav-item icons">
+
+            <button mat-icon-button (click)="openSideNav.emit()">
+              <mat-icon >menu</mat-icon>
+            </button>
+              
+
+      </li>
       <li class="vertical-bar"></li>
       <li class="nav-item">
-        <a class="nav-link" href="">Accéder au catalogue de biens</a>
+        <a class="nav-link" style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" href="">Accéder au catalogue de biens</a>
       </li>
       <li class="nav-item">
         <app-white-button class="app-white-button">Se connecter</app-white-button>
       </li>
       <li class="nav-item">
         <app-blue-button class="app-blue-button">Créer un compte</app-blue-button>
+      </li>
+      <li>
+        <mat-icon class="icons login-icon"><a href="">login</a></mat-icon>
+      </li>
+      <li>
+        <mat-icon class="icons"><a href="">person_add</a></mat-icon>
       </li>
     </ul>
   </div>
