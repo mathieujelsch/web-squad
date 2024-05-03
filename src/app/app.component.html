@@ -2,64 +2,7 @@
 
 <mat-sidenav-container>
     <mat-sidenav class="side-container" #sidenav>
-        <div class="sub-container">
-
-            <div class="d-flex align-items-center justify-content-between" (click)="toggleSubmenu()">
-                <div class="d-flex align-items-center side-bar gap-4">
-                    <mat-icon class="fs-40">groups</mat-icon>
-                    <a href="#" class="side-text text-decoration-none">Notre équipe</a>
-                </div>
-                <mat-icon [ngClass]="{ 'sub-menu-open': isSubmenuOpen }" class="ml-auto">{{ isSubmenuOpen ? 'keyboard_arrow_down' : 'keyboard_arrow_right' }}</mat-icon>
-            </div>
-            <div [@expandCollapse]="isSubmenuOpen ? 'open' : 'closed'">   
-                <ul *ngIf="isSubmenuOpen" class="sub-menu sub-choice">
-                    <li class="list-unstyled d-flex align-items-center gap-1 pt-2">
-                        <mat-icon class="fs-5">double_arrow</mat-icon>   
-                        <a href="#" class="menu-text text-decoration-none text-dark">Item 1</a>
-                    </li>
-                    <li class="choice-separation list-unstyled d-flex align-items-center gap-1">
-                        <mat-icon class="fs-5">double_arrow</mat-icon> 
-                        <a href="#" class="menu-text text-decoration-none text-dark">Item 2</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="sub-container">
-            <div class="d-flex align-items-center justify-content-between" (click)="toggleSubmenuGuide()">
-                <div class="d-flex align-items-center side-bar gap-4">
-                    <mat-icon class="fs-40">menu_book</mat-icon>
-                    <a href="#" class="side-text text-decoration-none">Notre guide</a>
-                </div>
-                <mat-icon [ngClass]="{ 'sub-menu-open': isSubmenuGuideOpen }" class="ml-auto">{{ isSubmenuGuideOpen ? 'keyboard_arrow_down' : 'keyboard_arrow_right' }}</mat-icon>
-            </div>
-            <div>   
-                <ul *ngIf="isSubmenuGuideOpen" class="sub-menu sub-choice">
-                    <li class="list-unstyled d-flex align-items-center gap-1 pt-2">
-                        <mat-icon class="fs-5">double_arrow</mat-icon>   
-                        <a href="#" class="menu-text text-decoration-none text-dark">LMNP</a>
-                    </li>
-                    <li class="choice-separation list-unstyled d-flex align-items-center gap-1">
-                        <mat-icon class="fs-5">double_arrow</mat-icon> 
-                        <a href="#" class="menu-text text-decoration-none text-dark">Loi Pinel</a>
-                    </li>
-                    <li class="choice-separation list-unstyled d-flex align-items-center gap-1">
-                        <mat-icon class="fs-5">double_arrow</mat-icon> 
-                        <a href="#" class="menu-text text-decoration-none text-dark">Autre doc 1</a>
-                    </li>
-                    <li class="choice-separation list-unstyled d-flex align-items-center gap-1">
-                        <mat-icon class="fs-5">double_arrow</mat-icon> 
-                        <a href="#" class="menu-text text-decoration-none text-dark">Autre doc 2</a>
-                    </li>
-
-                </ul>
-            </div>
-        </div>
-
-        <div class="d-flex align-items-center side-bar gap-4 sub-container">
-            <mat-icon class="fs-40">apartment</mat-icon>
-            <a href="#" class="side-text text-decoration-none">Accès catalogue</a>
-        </div>  
+        <app-sidebar></app-sidebar>
     </mat-sidenav>
     <mat-sidenav-content>
         <router-outlet />
