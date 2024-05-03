@@ -11,3 +11,45 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 }
 
 @import './styles/base';
+
+@font-face {
+  font-family: 'futuraBlack';
+  src: url('/assets/fonts/FuturaBlack.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'futuraBold';
+  src: url('/assets/fonts/FuturaBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'futuraBookFront';
+  src: url('/assets/fonts/FuturaBookFront.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'futuraExtra';
+  src: url('/assets/fonts/FuturaExtra.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'futuraHeavy';
+  src: url('/assets/fonts/FuturaHeavy.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'futuraMedium';
+  src: url('/assets/fonts/futuraMedium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

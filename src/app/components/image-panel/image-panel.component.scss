@@ -1,14 +1,12 @@
-// .container {
-//   width: 832px;
-//   height: 505px;
-//   border-radius: 10px;
-//   overflow: hidden;
-// }
 
-.container img {
+.container-image {
+  width: 500px;
+  height: 300px;
+  overflow: hidden;
+}
 
-  object-fit: cover; /* Pour que l'image s'adapte tout en conservant ses proportions */
-  width: 832px;
-  height: 505px;
-  border-radius: 10px;
+.container-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

@@ -1,6 +1,6 @@
 .dark-blue-button {
   background-color: #33B2E9;
-  width: 145px;
+  // width: 208px;
   height: 40px;
   border-radius: 6px;
   color: white;
@@ -10,4 +10,12 @@
 .dark-blue-button:active {
   background-color: white;
   color: #33B2E9;
+}
+
+.taille-navbar {
+  width: 145px;
+}
+
+.taille-card {
+  width: 208px;
 }

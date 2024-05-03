@@ -1,6 +1,32 @@
-.container {
-  width: 832px;
-  height: 505px;
-  border-radius: 10px;
-  background-color: white;
+
+.container-text {
+  
+}
+
+.container-text h1 {
+  font-family: 'futuraBlack';
+  color: #1F2572;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.container-text span {
+  font-family: 'FuturaBold';
+  color: #1F2572;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+.container-text p {
+  font-weight: 500;
+  font-size: 16px;
+  color: #555763;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  padding-top: 20px;
 }
