@@ -1,0 +1,39 @@
+.card-container {
+    width: 400px;
+    height: 776px;
+    border-radius: 10px;
+}
+
+.body-container {
+    background-color: #272b5c;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.title-container img {
+    margin-right: 15px; /* Espace entre l'image et le contenu */
+}
+
+.btn-situation {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content-situation {
+    padding-right: 15px;
+}

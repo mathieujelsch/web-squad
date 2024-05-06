@@ -1,0 +1,30 @@
+.situation-container {
+    padding-top: 50px;
+}
+
+.cards-container {
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-container p{
+    font-weight: 700;
+    font-size: 40px;
+    color: #1f2572;
+    margin-bottom: 0px;
+}
+
+.title-container {
+    background-color: white;
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.title {
+    margin-bottom: 0px;
+}

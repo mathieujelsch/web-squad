@@ -1,0 +1,16 @@
+<div class="card-container">
+    <ng-content select="[image]" class="img-situation"></ng-content>
+    
+    <div class="body-container">
+        <div class="title-container">
+            <img src="assets/images/Rectangle.png" alt="">
+            <ng-content select="[title]"></ng-content>
+        </div>
+        <div class="content-situation">
+            <ng-content select="[content]"></ng-content>
+        </div>
+        <div class="btn-situation">
+            <app-light-button>En savoir plus</app-light-button>
+        </div>
+    </div>    
+</div>
