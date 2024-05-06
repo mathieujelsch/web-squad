@@ -1,0 +1,29 @@
+.slogan-container {
+    background-color: #272b5c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 256px;
+    height: 205px;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.slogan-container img {
+    height: 30px;
+    width: 30px;
+    margin-bottom: 20px;
+}
+
+.slogan-container p {
+    margin: 0px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.content {
+    margin-top: 20px;
+}

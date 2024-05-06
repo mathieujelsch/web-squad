@@ -1,0 +1,43 @@
+.banner-container {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-container p {
+    color: #272b5c;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 30px;
+    margin: 0px;
+    white-space: nowrap; /* Empêche le texte de se retourner */
+    overflow: hidden; /* Cache le texte excédentaire */
+    text-overflow: ellipsis; 
+    max-width: 80%;
+}
+
+.cards-container {
+  display: flex;
+  padding: 0 20px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+}
+
+.cards-container app-dark-blue-card {
+    margin-right: 30px;
+}
+
+@media screen and (max-width: 1300px) {
+    .cards-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .cards-container app-dark-blue-card {
+      margin-right: 0;
+      margin-bottom: 20px; /* Ajoute un espace entre les cartes verticales */
+    }
+  }

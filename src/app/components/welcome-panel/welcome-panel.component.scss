@@ -1,21 +1,30 @@
 
 .container-text {
-  
+  height: 95%;
+  width: 832px; // j'ai exprès fixé en px pour evité qu'elle reduise
+  background-color: white;
+  border-radius: 10px;
+  padding: 35px;
+}
+
+.content-container {
+  padding-bottom: 45px;
 }
 
 .container-text h1 {
   font-family: 'futuraBlack';
   color: #1F2572;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 700;
 }
 
 .container-text span {
   font-family: 'FuturaBold';
   color: #1F2572;
-  font-size: 32px;
+  font-size: 45px;
   line-height: 40px;
   font-weight: 700;
+  padding-bottom: 10px;
 }
 
 .container-text p {
@@ -28,5 +37,11 @@
   display: flex;
   justify-content: flex-end;
   gap: 20px;
-  padding-top: 20px;
 }
+
+// .btn-start {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   text-align: center;
+// }

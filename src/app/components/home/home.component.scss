@@ -1,7 +1,18 @@
 .wrapper {
+  background-color: rgb(248, 246, 246);
   display: flex;
+  justify-content: space-between;
+  padding-top: 5vh;
+  padding-left: 10vh;
+  padding-right: 10vh;
 }
 
-.item {
-  flex: 1;
+.item1 {
+  padding-right: 5vh;
+}
+
+.slogan-wrapper {
+  padding-left: 10vh;
+  padding-right: 10vh;
+  background-color: rgb(248, 246, 246);
 }
