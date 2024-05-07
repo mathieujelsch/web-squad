@@ -1,0 +1,36 @@
+.container-card {
+    height: 439px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: #272b5c;
+    padding: 20px;
+    color: white;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 23px;
+    padding-left: 10px;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.description p {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0px;
+    padding-left: 10px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 55px;
+    padding-right: 10px;
+}

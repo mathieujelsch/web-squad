@@ -1,10 +1,17 @@
-.wrapper {
+.home-wrapper {
+  background-color: rgb(248, 246, 246);
+  overflow: hidden;
+}
+
+.welcome-wrapper {
   background-color: rgb(248, 246, 246);
   display: flex;
   justify-content: space-between;
   padding-top: 5vh;
   padding-left: 10vh;
   padding-right: 10vh;
+  max-width: 100%; /* Prend la largeur totale */
+  margin: 0 auto;
 }
 
 .item1 {
@@ -15,10 +22,23 @@
   padding-left: 10vh;
   padding-right: 10vh;
   background-color: rgb(248, 246, 246);
+  max-width: 100%; /* Prend la largeur totale */
+  margin: 0 auto;
 }
 
 .situation-wrapper {
   padding-left: 10vh;
   padding-right: 10vh;
   background-color: #D5D8EA;
+  max-width: 100%; /* Prend la largeur totale */
+  margin: 0 auto;
+}
+
+.simulation-type-wrapper {
+  padding-left: 112px;
+  padding-right: 112px;
+  background-color: rgb(248, 246, 246);
+  max-width: 100%; /* Prend la largeur totale */
+  margin: 0 auto;
+  padding-bottom: 40px;
 }

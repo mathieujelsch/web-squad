@@ -1,0 +1,32 @@
+<div class="container-card">
+    <div class="title">
+        <ng-content select="[title]"></ng-content>
+    </div>
+
+    <div class="container-content">
+        <div class="description">
+            <ng-content select="[image1]"></ng-content>
+            <p>Accès au catalogue de biens</p>
+        </div>
+        <div class="description">
+            <ng-content select="[image2]"></ng-content>
+            <p>Être contacté par un conseiller</p>
+        </div>
+        <div class="description">
+            <ng-content select="[image3]"></ng-content>
+            <p>Enregistrer et modifier mes simulations</p>
+        </div>
+        <div class="description">
+            <ng-content select="[image4]"></ng-content>
+            <p>Mettre en favoris des biens</p>
+        </div>
+        <div class="description">
+            <ng-content select="[image5]"></ng-content>
+            <p>Accéder au bilan patrimonial complet d'un bien</p>
+        </div>
+    </div>
+
+    <div class="btn-container">
+        <ng-content select="[btn]"></ng-content>
+    </div>   
+</div>
