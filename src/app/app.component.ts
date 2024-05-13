@@ -5,6 +5,7 @@ import { HomeComponent } from './components/home/home.component';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { CommonModule } from '@angular/common';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 @Component({
@@ -16,7 +17,8 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
     HomeComponent, 
     MatSidenavModule,
     CommonModule,
-    SidebarComponent
+    SidebarComponent,
+    FooterComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'

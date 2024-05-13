@@ -1,0 +1,67 @@
+.footer {
+    background-color: white;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    height: 405px;
+}
+
+.category-container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 500;
+    color: #c1c6e0;
+    padding-top: 64px;
+    border-bottom: 1px solid #D5D8EA;
+    padding-bottom: 25px;
+}
+
+.brand-container img {
+    width: 32px;
+    height: 32px;
+}
+
+
+.logo-container {
+    display: flex;
+  align-items: center;
+}
+
+.brand-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.signature {
+    color: #c1c6e0;
+    font-size: 14px;
+    font-weight: 400;
+    white-space: nowrap; /* Empêche le texte de se retourner */
+    overflow: hidden; /* Cache le texte excédentaire */
+    text-overflow: ellipsis;
+    padding-left: 20px; 
+}
+
+.signature p {
+    margin: 0px;
+}
+
+.branding {
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.jesper {
+    padding-left: 25px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.vertical-bar-logo {
+    border-right: 1px solid #D5D8EA;
+    height: 35px;
+    padding-left: 25px;
+  }

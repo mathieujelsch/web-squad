@@ -46,3 +46,16 @@
       margin-bottom: 20px; /* Ajoute un espace entre les cartes verticales */
     }
   }
+
+  @media screen and (max-width: 800px) {
+    .title-container p {
+        font-size: 18px;
+        white-space: normal;
+        overflow: visible;
+        text-overflow: clip;
+    }
+
+    .title-container {
+        text-align: center;
+    }
+  }
